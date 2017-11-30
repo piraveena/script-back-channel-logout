@@ -1,0 +1,5 @@
+1. Run the script file
+2. So first oauth component will be built. Then product-is will be built
+3. Then get playground sample from product-is and deploy that in tomcat.
+4. Run management console and add back-channel logout url as http://playground.com/logout
+5. Save it and continue.
