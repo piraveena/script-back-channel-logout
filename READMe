@@ -1,5 +1,9 @@
 1. Run the script file
 2. So first oauth component will be built. Then product-is will be built
 3. Then get playground sample from product-is and deploy that in tomcat.
-4. Run management console and add back-channel logout url as http://playground.com/logout
-5. Save it and continue.
+4. Add a new column, BACKCHANNELLOGOUT_URL in the IDN_OAUTH_CONSUMER table.
+5. Start the server with sh wso2server.sh -Dsetup
+6. Go to management console
+7. Register the serveice provider as 'playground2' and add back-channel logout url as 'http://playground2/logout'
+8. Save it and continue.
+You can refer this blog for more details about how to configure OIDC back-channel logout with WSO2 IS server. https://medium.com/@piraveenaparalogarajah/configuring-openid-connect-back-channel-logout-using-is-8c758310525f
