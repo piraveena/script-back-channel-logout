@@ -10,7 +10,7 @@ mvn clean install -Dmaven.test.skip=true
 
 cd -
 
-git clone https://github.com/wso2/product-is.git
+git clone https://github.com/piraveena/product-is.git
 cd product-is
-git checkout feature-oidc-backchannel-logout
+git checkout oidc-backchannel-logout
 mvn clean install -Dmaven.test.skip=true 
