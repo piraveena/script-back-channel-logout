@@ -12,5 +12,5 @@ cd -
 
 git clone https://github.com/piraveena/product-is.git
 cd product-is
-git checkout oidc-backchannel-logout
+git checkout oidc-back-channel-logout
 mvn clean install -Dmaven.test.skip=true 
